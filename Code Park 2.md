@@ -13,7 +13,7 @@ Sabendo que o professor tem dificuldade de memorizar, informe como ele descobriu
 
 # RESOLUÇÃO
 
-##imagem##
+![Matrizes em Sala de Aula](https://github.com/alvesdanrley/FAP_Softex/assets/129902303/9ab58a3c-72b1-49bc-8af6-6e52798240ed)
 
 É possível enxergar a imagem como uma matriz, ou tabuleiro de xadrez, e dividir em linhas e colunas. Dessa forma, considerando que as linhas vão de A-F e as colunas de 1-6, o professor pôde perceber
 que os alunos nas coordenadas D3 e E5 haviam se movimentado. Ademais, poderia ser possível também perceber a mudança pela contagem de alunos que gostavam de cada disciplina em cada fila/linha, pois
