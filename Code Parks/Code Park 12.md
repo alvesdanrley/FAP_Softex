@@ -7,7 +7,7 @@ Ele deverá mostrar a mensagem “iniciando contagem regressiva”, os segundos 
 
 # Resolução
 
-![contadorBomba](https://github.com/alvesdanrley/FAP_Softex/assets/129902303/32417366-921b-4600-8175-c2bb21354719)
+![contadorBomba](https://github.com/alvesdanrley/FAP_Softex/assets/129902303/3d3a63a3-da9b-4612-952d-3ca609ede940)
 
 ---
 
@@ -16,6 +16,7 @@ Ele deverá mostrar a mensagem “iniciando contagem regressiva”, os segundos 
 ```
 var i, contador;
 
+window.alert('INICIANDO CONTAGEM REGRESSIVA');
 for (i = 10; i >= 0; i--) {
   contador = String(i) + ' SEGUNDOS PARA DETONAÇÃO!!!';
   window.alert(contador);
