@@ -11,7 +11,7 @@ const readline = require('readline-sync')
 while (true) {
   console.log('---CALCULADORA---')
   console.log('Escolha sua operação: + , - , * ou /')
-  let op = prompt('Digite a operação de sua escolha: ')
+  let op = readline.Question('Digite a operação de sua escolha: ')
   let n1 = readline.questionFloat('Digite o primeiro número: ')
   let n2 = readline.questionFloat('Digite o segundo número: ')
   let resultado = 0
@@ -42,8 +42,8 @@ while (true) {
       console.log('Opção inválida')
       
   }
-  const continuar = prompt('Deseja continuar(S/N)? ')
-  if (continuar == 'N') {
+  const continuar = prompt('Deseja continuar(S/N)? ').toUpperCase()
+  if (continuar === 'N') {
     break
   }
 }
